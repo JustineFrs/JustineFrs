@@ -49,6 +49,18 @@
                             <li class="btn_hobbies">Centres d'intérêts</li>
                         </ul>
                     </div>
+                    <!--MAIL-->
+                    <div class="col-lg-12 contact" hidden="hidden">
+                        <div class="col-lg-6 formulaire">
+                            <label for="nom"></label><input class="form1" type="text" name="Nom" placeholder="Votre nom"/><br/>
+                            <label for="prenom"></label><input class="form1" type="text" name="Prénom" placeholder="Votre prénom"/><br/>
+                            <label for="email"></label><input class="form1" type="text" name="Email" placeholder="Votre email"/><br/>
+                        </div>
+                        <div class="col-lg-6 formulaire">
+                            <textarea class="form2" name="commentaire" placeholder="Laissez moi un message !" rows="4" cols="30"></textarea>
+                            <input class="bouton" type="submit" value="Envoyer">
+                        </div>
+                    </div>
                     <!--Formations-->
                     <div class="col-lg-12 texte_form" hidden="hidden">
                         <div class="col-lg-6">
@@ -171,29 +183,40 @@
         </div>
         <script>
             $(document).ready(function () {
+                $(".block_mail").click(function () {
+                    $(".contact").show();
+                    $('.texte_form').hide();
+                    $('.texte_exp').hide();
+                    $('.cpt').hide();
+                    $('.hobbies').hide();
+                });
                 $(".btn_form").click(function () {
                     $('.texte_form').show();
                     $('.texte_exp').hide();
                     $('.cpt').hide();
                     $('.hobbies').hide();
+                    $(".contact").hide();
                 });
                 $(".btn_exp").click(function () {
                     $('.texte_exp').show();
                     $('.texte_form').hide();
                     $('.cpt').hide();
                     $('.hobbies').hide();
+                    $(".contact").hide();
                 });
                 $(".btn_cpt").click(function () {
                     $('.cpt').show();
                     $('.texte_form').hide();
                     $('.texte_exp').hide();
                     $('.hobbies').hide();
+                    $(".contact").hide();
                 });
                 $(".btn_hobbies").click(function () {
                     $('.hobbies').show();
                     $('.texte_form').hide();
                     $('.cpt').hide();
                     $('.texte_exp').hide();
+                    $(".contact").hide();
                 });
             });
         </script>     

@@ -81,6 +81,24 @@ body{
 }
 .menu{
     margin-top: 30px;
+    display: block;
+    float: bottom;
+}
+.contact{
+   margin-top: 30px;
+   background-color: white;
+   width: 650px;
+   height: 180px;
+   border-radius: 20px;
+}
+.formulaire{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.form1{
+    width: 250px;
 }
 ul{
     list-style-type: none;
