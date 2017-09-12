@@ -1,0 +1,410 @@
+/* 
+    Created on : 08/2017
+    Author     : Justine Frasier
+*/
+html{
+
+    overflow-x: hidden!important;
+}
+body{
+    color: gray;
+    font-family: verdana;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.2!important;
+}
+.row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+/****************HEADER NAVIGATION**********************/
+header{
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    z-index: 9999999;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
+}
+header ul li{
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+}
+ul.navigation {
+    margin-top: 16px;
+    padding-right: 40px;
+}
+ul.navigation a{
+    text-decoration: none; 
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Verdana";
+}
+ul.navigation a:hover{
+    color: black;
+}
+
+.navigation li {
+    padding: 20px;
+}
+div.decoAfterMenu img, div.decoBeforeMenu img{
+    height: 20px;
+    margin-top: 35px;
+}
+/*************SECTION 1******************/
+#sectionOne{
+    padding-top: 70px;
+    background-image: url(../images/background_zen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+}
+
+div#titleSite h1, div#subtitle h2{
+    text-align: center;
+    font-weight: 100;
+    font-family: "Julee";
+    color: #FFF;
+    font-size: 57px;
+}
+div#titleSite h1{
+    margin-bottom: 0px;    
+    margin-top: 80px;
+    text-transform: uppercase;  
+}
+div#subtitle h2{
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+div#disciplineDesc,
+.taijiPresentation h3,
+.taijiPresentation p,
+.qigongPresentation h3,
+.qigongPresentation p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taijiPresentation, .qigongPresentation {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 40px 90px 40px 90px!important;
+    text-align: justify;
+}
+.taijiPresentation{
+    margin-right: 120px;
+}
+.taijiPresentation h3, .qigongPresentation h3{
+    padding-bottom: 20px;
+    font-family: "Julee";
+    font-size: 50px;
+    font-weight: 100;
+}
+
+/*********************SECTION 2*********************/
+section#sectionTwo {
+    margin-top: 100px;
+}
+div.professorPresentation {
+    background-color: #f4f4f4;
+    padding-bottom: 10px;
+}
+div.professorPhoto img{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+div.professorDesc{
+    padding-left: 35px;
+    padding-right: 55px;
+}
+div.professorDesc h3{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+div.professorDesc p{
+    text-align: justify;
+}
+
+div.titleTrip img, div.titleMap img{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+div.titleTrip, div.titleMap {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2#titleCarousel, h2#titleMap {
+    font-family: julee;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+h2#titleCarousel{  
+    padding-left: 90px;
+    padding-right: 90px;
+}
+div.carousel div.items img {
+    width: 100%;
+}
+div.tripDesc{
+    margin-top: 30px;
+    padding: 0px 60px;
+}
+h2#titleMap{  
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+/****************SECTION 3*******************/
+section#sectionTree{
+    overflow-x: hidden;
+}
+div.iconCalendar img, div.iconPin img{
+    height: 50px;
+    margin-bottom: 15px;
+}
+div.icons p{
+    text-align: center;
+}
+div.icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.groupCalendar{
+    margin-right: 85px;
+}
+section#map{
+    background-image: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.contactForm {
+    background-color: #789e97;
+    margin: 25px 0px;
+    padding: 25px 0px;
+}
+.contactText {
+    color: #fff;
+    text-align: center;
+}
+
+div.contactForm input[type="text"]{
+    width: 96%;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+div.contactForm textarea {
+    width: 96%;
+    height: 150px;
+    padding: 3px 10px;
+    margin-left: 15px;
+}
+input.btnSubmit{
+    float: right;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border: 0px;
+    font-family: verdana;
+    font-size: 14px;
+}
+div.iconPhone img{
+    height: 20px;
+}
+
+/*******************FOOTER**********************/
+div.upFooter{
+    background-color: #8F8F8F;
+}
+div.upFooter p{
+    text-align: center;
+    color: #fff;
+}
+div.upFooter img{
+    height: 70px;
+    margin-bottom: 10px;
+}
+div.upFooter {
+    padding: 20px 0px;
+}
+.downFooter {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+div.downFooter{
+    background-color: #383b3a;
+    color: #fff;
+}
+div.downFooter h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+div.copyright{
+    background-color: #000;
+    color: #FFF;
+}
+div.copyright p{
+    margin-top: 16px;
+    text-align: center;
+}
+footer ul li{
+    text-transform: uppercase;
+    list-style: none;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}
+div.downFooter li{
+    border-bottom: #fff 1px solid;
+}
+div.iconPhoneFooter img, div.iconMapFooter img{
+    height: 15px;
+}
+
+div.sitemap h4{
+    padding-left: 40px;
+}
+footer a{
+    text-decoration: none; 
+    color: #fff;
+}
+footer a:hover{
+    color: #fff;
+}
+/************Mentions légales*************/
+div.mentionsLegalesBloc{
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+/**************RESPONSIVE****************/
+
+@media screen and (max-width: 1024px){
+    #sectionOne {
+        background-position: -85px 0px;
+    }
+}
+@media screen and (max-width: 992px){
+    div.decoAfterMenu img, div.decoBeforeMenu img {
+        height: 15px;
+        margin-top: 32px;
+    }
+    .navigation li {
+        padding: 10px;
+    }
+    .taijiPresentation{
+        margin-right: 0px;
+    }
+    div#titleSite h1, div#subtitle h2, .taijiPresentation h3, .taijiPresentation h3, .qigongPresentation h3 {
+        font-size: 42px;
+    }
+    div.decoAfterMenu img{
+        margin-right: 15px;
+    }
+    div.taijiPresentation {
+        margin-bottom: 15px;
+    }
+    div.groupCalendar {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    section#map {
+        background-image: none;
+    }
+    input#btnSubmit {
+        margin-right: 16px;
+    }
+    div.contactForm{
+        margin: 0px;
+    }
+    div.iconPhone img {
+        margin: 15px;
+    }
+    div.sitemap h4{
+        padding: 0px;
+    }
+    div.sitemap ul{
+        padding: 0px;
+    }
+    div.downFooter{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #sectionOne{
+        height: 770px;
+    }
+    div.contactFooter img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    div.upFooter img {
+        height: 40px;
+    }
+    div#titleSite h1{
+        margin-top:50px;
+    }
+    div#subtitle h2 {
+        margin-bottom:51px;
+    }
+    div.decoAfterMenu img, div.decoBeforeMenu img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px){
+    header div.row{
+        display: none;
+    }
+    div.titleTrip img, div.titleMap img{
+        height: 12px;
+    }
+    h2#titleCarousel, h2#titleMap{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    div#titleSite h1, div#subtitle h2, .taijiPresentation h3, .taijiPresentation h3, .qigongPresentation h3 {
+        font-size: 24px;
+    }
+    section#sectionOne{
+        padding-top: 15px;
+    }
+    .taijiPresentation, .qigongPresentation{
+        padding: 25px 60px 25px 60px!important;
+    }
+    #sectionOne {
+        background-position: -400px 0px;
+        height: 760px;
+    }
+    div.titleTrip, div.titleMap {
+        margin-top: 40px;
+    }
+    section#sectionTwo {
+        margin-top: 0px;
+    }
+    div.professorDesc {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 120px;
+    }
+    div.contactForm input[type="text"], div.contactForm textarea{
+        width: 91%;
+    }
+}
